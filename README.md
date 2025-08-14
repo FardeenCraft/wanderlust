@@ -17,10 +17,12 @@ Built with **Node.js, Express, MongoDB, and EJS**.
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](screenshots/home.png)
+<img width="1872" height="900" alt="image" src="https://github.com/user-attachments/assets/2a94f766-0655-4812-a3fc-2b75c961795c" />
+
 
 ### 📄 Listing Page
-![Listing](screenshots/listing.png)
+<img width="1878" height="895" alt="image" src="https://github.com/user-attachments/assets/d4964276-5d29-4edd-8115-3584f3fb9a7b" />
+
 
 ---
 

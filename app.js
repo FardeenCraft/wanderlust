@@ -68,9 +68,10 @@ const sessionOptions = {
       },
 };
 
-// app.get("/", (req, res) => {
-//   res.render("home"); // home.ejs
-// });
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
+
 
 
 

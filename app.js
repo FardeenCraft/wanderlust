@@ -68,9 +68,9 @@ const sessionOptions = {
       },
 };
 
-// app.get('/', (req, res) => {
-//   res.send("Hi I am root");
-// });\
+// app.get("/", (req, res) => {
+//   res.render("home"); // home.ejs
+// });
 
 
 
@@ -116,6 +116,7 @@ app.use((err, req, res, next) => {
   res.status(statusCode).render("error.ejs", { err }); // ✅ pass the full error object
 });
 
-app.listen(8080, () => {
-  console.log('Server is running on port 8080');
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
